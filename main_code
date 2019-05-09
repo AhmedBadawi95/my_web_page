@@ -1,0 +1,122 @@
+<!DOCTYPE html> <!-- The new doctype -->
+<html>
+    <head>
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title>Coding A CSS3 & HTML5 pure webpage </title>
+        
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+
+        
+    </head>
+    
+    <body>
+    	
+    	<section id="page"> <!-- Defining the #page section with the section tag -->
+    
+            <header> <!-- Defining the header section of the page with the appropriate tag -->
+            
+                <hgroup>
+                    <h1>my web page</h1>
+                    <h3>with pure css and html </h3>
+                </hgroup>
+                                
+                <nav class="clear"> 
+                    <ul>
+                        <li><a href="#article1">about me</a></li>
+                        <li><a href="#article2">study life</a></li>
+                        <li><a href="#article3">future carrier</a></li>
+                    </ul>
+                </nav>
+            
+            </header>
+            
+            <section id="articles"> <!-- A new section with the articles -->
+
+				<!-- Article 1 start -->
+
+                <div class="line"></div>  <!-- Dividing line -->
+                
+                <article id="article1"> <!-- The new article tag. The id is supplied so it can be scrolled into view. -->
+                    <h2>about me</h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    
+                    	<figure> <!-- The figure tag marks data (usually an image) that is part of the article -->
+	                    	<img src="https://unsplash.com/photos/VQYK1he07Ow" width="620" height="340" /></a>
+                        </figure>
+                        <p> Im E. Ahmed Badawi i studided @ faculty of engineering at ucas my major is computer and inforamtion secuirty engneering im skilled at secured programming & networks and systems administration and security </p>
+
+                        
+                    </div>
+                </article>
+                
+				<!-- Article 1 end -->
+
+
+				<!-- Article 2 start -->
+
+                <div class="line"></div>
+                
+                <article id="article2">
+                    <h2>my study life</h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<figure>
+	                    	<img src="https://unsplash.com/photos/SYTO3xs06fU" width="620" height="340" /></a>
+                        </figure>
+                        <p> i took many courses in my study life for examples programming1,programming2 ,python programming,javascript ,Artifical intelligence ,  ssytems security ,networks secuirty ,entrepreneurship,machine learning ,risk assessment,and many of too intrested subjects    </p>
+                    </div>
+                </article>
+                
+				<!-- Article 2 end -->
+
+				<!-- Article 3 start -->
+
+                <div class="line"></div>
+                
+                <article id="article3">
+                    <h2>future carrier</h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<figure>
+	                    	<img src="https://unsplash.com/photos/g1Kr4Ozfoac" width="620" height="340" /></a>
+                        </figure>
+                                               
+						<p> i regist at code academy at gaza sky geeks and i hope to have this appouuunity to join this academy and that help me in my near future carrier which have jops and deal with different clients on the world through the relationships networks of GSGs </p>
+                    </div>
+                </article>
+                
+				<!-- Article 3 end -->
+
+
+            </section>
+
+        <footer> <!-- Marking the footer section -->
+
+           <div class="line"></div>
+           
+           <p>Copyright 2019 - E.Ahmed_Badawi</p> <!-- Change the copyright notice -->
+           
+           <a href="#" class="up">Go UP</a>
+           <a  class="by">Coded by E.Ahmed Badawi</a>
+           
+
+        </footer>
+            
+		</section> <!-- Closing the #page section -->
+        
+        <!-- JavaScript Includes -->
+        
+        <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>
+        <script src="script.js"></script> -->
+    </body>
+</html>
